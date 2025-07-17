@@ -1,0 +1,120 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4ff;
+  color: #333;
+}
+
+/* Header y frase animada */
+header {
+  background-color: #6a0dad;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+.frase {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #ffdcff;
+  animation: sloganAnimar 4s ease-in-out infinite;
+}
+
+@keyframes sloganAnimar {
+  0% {opacity: 0; transform: translateY(-20px);}
+  50% {opacity: 1; transform: translateY(0);}
+  100% {opacity: 0; transform: translateY(20px);}
+}
+
+/* Navegación */
+nav {
+  margin-top: 1rem;
+}
+
+.tab {
+  background-color: #84a8fd;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.tab:hover {
+  background-color: #6a0dad;
+}
+
+/* Secciones */
+main {
+  padding: 1rem;
+}
+.contenido {
+  padding: 1rem;
+}
+.hidden {
+  display: none;
+}
+
+/* Cuadros coloridos */
+.cuadro-colorido {
+  background-color: #e8dcff;
+  border-left: 6px solid #6a0dad;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+/* Cuadros individuales */
+.cuadro {
+  background-color: #ffffff;
+  border-left: 6px solid #84a8fd;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.cuadro h3 {
+  margin-top: 0;
+}
+
+/* Botones de video */
+.video-boton {
+  background-color: #84a8fd;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.video-boton:hover {
+  background-color: #6a0dad;
+}
+
+/* Curiosidades y chistes */
+.curiosidad,
+.chiste {
+  font-style: italic;
+  margin: 1rem 0;
+  font-size: 1rem;
+  background-color: #f8f0ff;
+  padding: 0.7rem;
+  border-left: 4px solid #d59dfd;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

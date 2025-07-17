@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeoMundo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GeoMundo</h1>
+    <p class="frase animada">Descubre el mundo ¡átomo por átomo!</p>
+    <nav>
+      <button class="tab" onclick="showTab('inicio')">Inicio</button>
+      <button class="tab" onclick="showTab('enlaces')">Enlaces Químicos</button>
+      <button class="tab" onclick="showTab('fuerzas')">Fuerzas Moleculares</button>
+      <button class="tab" onclick="showTab('geometria')">Geometría Molecular</button>
+      <button class="tab" onclick="showTab('recursos')">Recursos</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <section id="inicio" class="contenido">
+      <h2>🌍 Bienvenido a GeoMundo:
+        <br>Pagina web creada por estudiantes creada para aprender acerca de la iencia de manera sencilla, facil e interactiva¡¡
+      </h2>
+      
+      <div class="cuadro">
+        <h3>📎 Enlaces Químicos</h3>
+        <p>Explora cómo los átomos se unen mediante diferentes tipos de enlace: iónico, covalente, polar y metálico.</p>
+      </div>
+      <div class="cuadro">
+        <h3>⚡ Fuerzas Moleculares</h3>
+        <p>Aprende sobre las interacciones invisibles que determinan cómo las moléculas se comportan y se agrupan.</p>
+      </div>
+      <div class="cuadro">
+        <h3>📐 Geometría Molecular</h3>
+        <p>Descubre las formas tridimensionales que adoptan las moléculas y cómo esto afecta sus propiedades.</p>
+      </div>
+      <div class="cuadro">
+        <h3>🎓 Recursos</h3>
+        <p>Refuerza tus conocimientos con videos, curiosidades y chistes científicos que hacen que la química sea divertida.</p>
+      </div>
+    </section>
+
+    <!-- ENLACES QUÍMICOS -->
+    <section id="enlaces" class="contenido hidden">
+      <h2>📎 Enlaces Químicos</h2>
+
+      <div class="cuadro">
+        <h3>🧊 Enlace Iónico</h3>
+        <p>Se forma por la transferencia completa de electrones entre átomos.
+Uno de los átomos pierde electrones y el otro los gana, formando iones cation y anion.
+Los iones con cargas opuestas se atraen fuertemente.
+Este enlace crea estructuras organizadas y estables..</p>
+        <p><strong>Ejemplo:</strong> NaCl (sal de mesa)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=MEYsBdLS7Pc" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🔗 Enlace Covalente</h3>
+        <p>Es un tipo de enlace donde dos átomos comparten uno o más pares de electrones.
+Se forma entre átomos no metálicos con electronegatividades similares.
+No hay formación de cargas eléctricas netas.
+Permite la formación de moléculas estables.</p>
+        <p><strong>Ejemplo:</strong> H₂O (agua)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=i-eRz2Ix0E4" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🌀 Covalente Polar</h3>
+        <p>Es un enlace covalente donde los electrones se comparten de forma desigual.
+El átomo más electronegativo atrae con más fuerza los electrones compartidos.
+Se genera una distribución asimétrica de carga (dipolo).
+Produce moléculas con zonas parcialmente positivas y negativas.</p>
+        <p><strong>Ejemplo:</strong> HCl (ácido clorhídrico)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=sVmV-biy21s" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>⚙️ Enlace Metálico</h3>
+        <p>Es la unión entre átomos metálicos que comparten una nube de electrones libres.
+Los electrones se mueven libremente entre los núcleos atómicos.
+Este comportamiento proporciona propiedades como conductividad y maleabilidad.
+Los átomos se mantienen unidos por la atracción entre electrones y núcleos.
+
+</p>
+        <p><strong>Ejemplo:</strong> Cu (cobre), Al (aluminio)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=L2KayxunRlE" target="_blank">Ver video</a>
+      </div>
+    </section>
+
+    <!-- FUERZAS MOLECULARES -->
+    <section id="fuerzas" class="contenido hidden">
+      <h2>⚡ Fuerzas Moleculares</h2>
+
+      <div class="cuadro">
+        <h3>🌊 Puente de Hidrógeno</h3>
+        <p>Es una interacción débil que ocurre entre un átomo de hidrógeno y un átomo muy electronegativo (como O, N o F).
+El hidrógeno ya está unido covalentemente a un átomo electronegativo.
+Se forma una atracción secundaria con otro átomo electronegativo cercano.
+Es esencial para la estructura del agua y biomoléculas como el ADN.
+
+</p>
+        <p><strong>Ejemplo:</strong> H₂O (las moléculas se agrupan formando redes)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=lzoCpnaQ5xI" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🌬️ Fuerzas de Van der Waals</h3>
+        <p>Son fuerzas intermoleculares débiles que existen entre todas las moléculas.
+Incluyen atracciones por dipolos instantáneos o inducidos.
+Actúan a muy corta distancia y su intensidad depende del tamaño molecular.
+Son importantes en gases, líquidos y sólidos moleculares.</p>
+        <p><strong>Ejemplo:</strong> interacciones en gases nobles como helio y neón</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=1gLFMhNha-E" target="_blank">Ver video</a>
+      </div>
+    </section>
+
+    <!-- GEOMETRÍA MOLECULAR -->
+    <section id="geometria" class="contenido hidden">
+      <h2>📐 Geometría Molecular</h2>
+
+      <div class="cuadro">
+        <h3>📏 Lineal</h3>
+        <p>Es una forma molecular donde los átomos se alinean en una línea recta.
+El ángulo entre los enlaces es de 180°.
+Se presenta cuando el átomo central no tiene pares de electrones no enlazantes.
+Es típica de moléculas con dos regiones de densidad electrónica.
+        </p>
+        <p><strong>Ejemplo:</strong> CO₂ (dióxido de carbono)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=XlHB2gU_FIk" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🔺 Trigonal Plana</h3>
+        <p>Es una disposición en la que tres átomos rodean al átomo central en un mismo plano.
+Forman un ángulo de 120° entre sí.
+No hay pares de electrones no enlazantes en el átomo central.
+Corresponde a moléculas con tres regiones de densidad electrónica.
+
+</p>
+        <p><strong>Ejemplo:</strong> BF₃ (trifluoruro de boro)</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=DHcVqSwLAQM" target="_blank">Ver video</a>
+      </div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section id="recursos" class="contenido hidden">
+      <h2>📚 Recursos</h2>
+
+      <div class="cuadro">
+        <h3>🎥 Introducción a los Enlaces</h3>
+        <p>Video que explica de forma clara cómo y por qué se forman los diferentes enlaces químicos.</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=xfvuQSJD2HM" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🎞️ Geometrías Moleculares</h3>
+        <p>Este video repasa los tipos de geometría molecular y cómo se determinan a partir de la teoría VSEPR.</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=DHcVqSwLAQM" target="_blank">Ver video</a>
+      </div>
+
+      <div class="cuadro">
+        <h3>🧪 Aplicaciones de las Fuerzas</h3>
+        <p>Conoce cómo las fuerzas intermoleculares afectan propiedades como la solubilidad, la evaporación y la vida cotidiana.</p>
+        <a class="video-boton" href="https://www.youtube.com/watch?v=XkfzTHl3uis" target="_blank">Ver video</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Acerca de GeoMundo</h3>
+      <p>Aplicación educativa interactiva para explorar 
+        la química molecular con estilo, 
+        claridad y curiosidad.
+        <br>Proyecto aprobado por el docente de CyT Teobaldo
+      </p>
+      <p>&copy; 2025 GeoMundo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
